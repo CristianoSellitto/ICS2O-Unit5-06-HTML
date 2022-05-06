@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
  * Calculates the product of two numbers the user provides.
  */
 function onButtonClick() {
-  var numberOne = parseInt(document.getElementById("numberOne").value)
+  const numberOne = parseInt(document.getElementById("numberOne").value)
   var numberTwo = parseInt(document.getElementById("numberTwo").value)
   var result = 0
 
