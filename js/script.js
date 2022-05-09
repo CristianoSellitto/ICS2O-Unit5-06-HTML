@@ -22,16 +22,16 @@ function onButtonClick() {
 
   if (numberOne != 0 && numberTwo >= 0) {
     while (numberTwo > 0) {
+      // Calculation for + or - times + numbers
       result = result + numberOne
       numberTwo = numberTwo - 1
     }
-    console.log("Number 1 is negative or postive, and Number 2 is positive.")
   } else if (numberTwo < 0) {
     while (numberTwo != 0) {
+      // Calculation for + or - times - numbers
       result = result - numberOne
       numberTwo = numberTwo + 1
     }
-    console.log("Number 1 is negative or postive, and Number 2 is negative.")
   }
   document.getElementById("result").innerHTML = "<h5>The product of these numbers is " + result + "</h5>"
 }
